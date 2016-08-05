@@ -45,6 +45,6 @@
      */
     function page_onShow() {
         //type your here code
-        alert('mypage displayed');
+        alert('mypage displayed!!!!!');
     }
 })();
