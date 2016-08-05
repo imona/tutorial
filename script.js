@@ -14,6 +14,18 @@
 		adjustFontSizeToFit : true
 	});
 	mypage.add(passwordText);
+	
+	var codeButon = new SMF.UI.TextButton({
+		top : "75%",
+		left : "40%",
+		height : "10%",
+		width : "20%",
+		text : "code"
+	});
+	mypage.add(codeButon);
+	codeButon.onPressed= function(e){
+		Pages.back();
+	}
 
     /**
      * Creates action(s) that are run when the user press the key of the devices.
