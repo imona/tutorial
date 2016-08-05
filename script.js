@@ -19,7 +19,7 @@
 		top : "75%",
 		left : "40%",
 		height : "10%",
-		width : "20%",
+		width : "40%",
 		text : "code"
 	});
 	mypage.add(codeButon);
